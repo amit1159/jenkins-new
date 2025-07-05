@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
       - name: apache-container
-        image: IMAGE_PLACEHOLDER
+        image: amit1159/green
         ports:
         - containerPort: 80

@@ -8,7 +8,7 @@ RUN apt-get update && apt-get install -y \
  && rm -rf /var/lib/apt/lists/*
 
 # Copy the zip file into the container
-COPY templatemo_591_villa_agency (1).zip /tmp/
+COPY templatemo_591_villa_agency.zip /tmp/
 
 # Unzip the template and move files to /var/www/html
 RUN unzip /tmp/templatemo_591_villa_agency.zip -d /tmp/ && \
